@@ -45,12 +45,8 @@ const getImages = async (req, res) => {
 // API for adding product
 
 const addProduct = async (req, res) => {
-  upload.single("image")(req, res, async (err) => {
-    if (err) {
-      return res
-        .status(400)
-        .json({ success: false, error: "File upload failed" });
-    }
+  // Check if a file is uploaded
+  if (req.file) {
     try {
       const result = await cloudinary.uploader.upload(req.file.path, {
         folder: "products",
@@ -68,18 +64,50 @@ const addProduct = async (req, res) => {
         available: true,
       });
       await product.save();
-      res.json({
+      return res.json({
         success: true,
         name: req.body.name,
         imageUrl: result.secure_url,
       });
     } catch (error) {
-      res.status(500).json({
+      return res.status(500).json({
         success: false,
-        error: "An error occurred while adding the product",
+        error: "An error occurred while adding the product (file upload)",
       });
     }
-  });
+  }
+  // If no file, check for image URL in body
+  if (req.body.imageUrl) {
+    try {
+      const product = new Product({
+        id: Date.now(),
+        name: req.body.name,
+        image: {
+          public_id: "", // No public_id for direct URL
+          url: req.body.imageUrl,
+        },
+        category: req.body.category,
+        new_price: req.body.new_price,
+        old_price: req.body.old_price,
+        available: true,
+      });
+      await product.save();
+      return res.json({
+        success: true,
+        name: req.body.name,
+        imageUrl: req.body.imageUrl,
+      });
+    } catch (error) {
+      return res.status(500).json({
+        success: false,
+        error: "An error occurred while adding the product (imageUrl)",
+      });
+    }
+  }
+  // If neither, return error
+  return res
+    .status(400)
+    .json({ success: false, error: "No image file or imageUrl provided" });
 };
 
 // API for removing product
