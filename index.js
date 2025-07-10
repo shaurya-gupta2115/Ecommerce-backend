@@ -23,12 +23,59 @@ app.use("/", router);
 
 // express server running
 
-const port = process.env.PORT;
+const port = parseInt(process.env.PORT) || 8000;
 
-app.listen(port, (error) => {
+const server = app.listen(port, (error) => {
   if (!error) {
     console.log("Server Running on Port " + port);
   } else {
     console.log("Error :" + error);
   }
+});
+
+// Handle EADDRINUSE error
+server.on("error", (err) => {
+  if (err.code === "EADDRINUSE") {
+    console.log(
+      `Port ${port} is already in use. Please kill the process using this port and try again.`
+    );
+    console.log(`You can kill it using: kill -9 $(lsof -ti:${port})`);
+    process.exit(1);
+  } else {
+    console.log("Error :" + err);
+  }
+});
+
+// Graceful shutdown
+process.on("SIGINT", () => {
+  console.log("\nReceived SIGINT. Gracefully shutting down server...");
+  server.close(() => {
+    console.log("Server closed.");
+    process.exit(0);
+  });
+});
+
+process.on("SIGTERM", () => {
+  console.log("\nReceived SIGTERM. Gracefully shutting down server...");
+  server.close(() => {
+    console.log("Server closed.");
+    process.exit(0);
+  });
+});
+
+// Graceful shutdown
+process.on("SIGINT", () => {
+  console.log("\nReceived SIGINT. Gracefully shutting down server...");
+  server.close(() => {
+    console.log("Server closed.");
+    process.exit(0);
+  });
+});
+
+process.on("SIGTERM", () => {
+  console.log("\nReceived SIGTERM. Gracefully shutting down server...");
+  server.close(() => {
+    console.log("Server closed.");
+    process.exit(0);
+  });
 });
