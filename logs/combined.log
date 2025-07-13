@@ -1,0 +1,91 @@
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:49:07"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:49:07"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:49:07"}
+{"level":"info","message":"::1 - - [13/Jul/2025:15:19:11 +0000] \"GET /health HTTP/1.1\" 200 103 \"-\" \"curl/8.7.1\"","timestamp":"2025-07-13 20:49:11"}
+{"level":"info","message":"::1 - - [13/Jul/2025:15:19:16 +0000] \"GET /api-docs HTTP/1.1\" 301 158 \"-\" \"curl/8.7.1\"","timestamp":"2025-07-13 20:49:16"}
+{"level":"info","message":"::1 - - [13/Jul/2025:15:19:22 +0000] \"GET / HTTP/1.1\" 200 22 \"-\" \"curl/8.7.1\"","timestamp":"2025-07-13 20:49:22"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:49:39"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:49:39"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:49:39"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:49:41"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:49:41"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:49:41"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:49:49"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:49:49"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:49:49"}
+{"level":"info","message":"::1 - - [13/Jul/2025:15:19:51 +0000] \"GET /health HTTP/1.1\" 200 103 \"-\" \"axios/1.10.0\"","timestamp":"2025-07-13 20:49:51"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongoServerError: E11000 duplicate key error collection: Leetcode.users index: emailId_1 dup key: { emailId: null }","timestamp":"2025-07-13 20:49:51"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:25"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:25"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:25"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:32"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:32"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:32"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:33"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:33"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:33"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:36"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:36"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:36"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:42"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:42"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:42"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:47"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:47"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:47"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:49"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:49"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:49"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:55"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:55"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:55"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:56"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:56"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:56"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:55:58"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:55:58"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:55:58"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:56:00"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:56:00"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:56:00"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:57:07"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:57:07"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:57:07"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.ggrv0.mongodb.net","timestamp":"2025-07-13 20:57:08"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 20:57:17"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 20:57:17"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 20:57:17"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.ggrv0.mongodb.net","timestamp":"2025-07-13 20:57:18"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:00:34"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:00:34"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:00:34"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.ggrv0.mongodb.net","timestamp":"2025-07-13 21:00:35"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:00:47"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:00:47"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:00:47"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.ggrv0.mongodb.net","timestamp":"2025-07-13 21:00:48"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:01:19"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:01:19"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:01:19"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.ggrv0.mongodb.net","timestamp":"2025-07-13 21:01:20"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:01:28"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:01:28"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:01:28"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.ggrv0.mongodb.net","timestamp":"2025-07-13 21:01:28"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:01:31"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:01:31"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:01:31"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.ggrv0.mongodb.net","timestamp":"2025-07-13 21:01:32"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:01:33"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:01:33"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:01:33"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.ggrv0.mongodb.net","timestamp":"2025-07-13 21:01:34"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:01:40"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:01:40"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:01:40"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.ggrv0.mongodb.net","timestamp":"2025-07-13 21:01:41"}
+{"level":"info","message":"\nReceived SIGINT. Gracefully shutting down server...","timestamp":"2025-07-13 21:02:17"}
+{"level":"info","message":"Server Running on Port 8000","timestamp":"2025-07-13 21:02:21"}
+{"level":"info","message":"Environment: development","timestamp":"2025-07-13 21:02:21"}
+{"level":"info","message":"API Documentation: http://localhost:8000/api-docs","timestamp":"2025-07-13 21:02:21"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.ggrv0.mongodb.net","timestamp":"2025-07-13 21:02:22"}

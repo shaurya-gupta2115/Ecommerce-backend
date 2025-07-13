@@ -1,0 +1,2 @@
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongoServerError: E11000 duplicate key error collection: Leetcode.users index: emailId_1 dup key: { emailId: null }","timestamp":"2025-07-13 20:49:51"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongooseError: Connection.prototype.close() no longer accepts a callback","timestamp":"2025-07-13 21:02:17"}
